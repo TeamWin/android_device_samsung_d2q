@@ -94,7 +94,7 @@ TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_FBE := true
 
 # TWRP
-TW_DEVICE_VERSION := 1_mentalmuso
+TW_DEVICE_VERSION := 3_mentalmuso
 RECOVERY_VARIANT := twrp
 TW_THEME := portrait_hdpi
 TW_Y_OFFSET := 143

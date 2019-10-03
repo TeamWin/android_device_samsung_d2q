@@ -6,4 +6,4 @@ manifest
 https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni/tree/twrp-9.0
 
 Kernel source:
-https://github.com/mentalmuso/android_kernel_samsung_d2q
+https://github.com/mentalmuso/android_kernel_samsung_sd855
