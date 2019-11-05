@@ -52,13 +52,8 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
 # Kernel
-BOARD_CUSTOM_BOOTIMG_MK := hardware/samsung/mkbootimg.mk
-TARGET_PREBUILT_KERNEL := device/samsung/d2q/prebuilt/Image-dtb
+TARGET_PREBUILT_KERNEL := device/samsung/d1q/prebuilt/Image-dtb
 BOARD_KERNEL_SEPARATED_DTBO := true
-TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_APPEND_DTB := true
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --header_version 1 --board FRPSC27A001
 BOARD_KERNEL_CMDLINE := console=null androidboot.hardware=qcom androidboot.memcg=1 lpm_levels.sleep_disabled=1 video=vfb:640x400,bpp=32,memsize=3072000 msm_rtb.filter=0x237 service_locator.enable=1 swiotlb=2048 androidboot.usbcontroller=a600000.dwc3 firmware_class.path=/vendor/firmware_mnt/image nokaslr printk.devkmsg=on androidboot.selinux=permissive
 BOARD_KERNEL_PAGESIZE := 4096
