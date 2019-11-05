@@ -1,0 +1,14 @@
+[
+        {
+        	"repository": "LineageOS/android_hardware_samsung",
+        	"target_path": "hardware/samsung",
+		"remote":"github",
+		"revision":"lineage-16.0"
+	},
+    {
+      "remote": "omnirom",
+      "repository": "android_vendor_qcom_opensource_commonsys",
+      "target_path": "vendor/qcom/opensource/commonsys",
+      "revision": "android-9.0"
+    }
+]
